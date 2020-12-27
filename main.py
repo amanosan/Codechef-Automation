@@ -47,3 +47,6 @@ driver.find_element_by_xpath("//*[@id='edit-language']/option[1]").click()
 
 # finally submitting the solution to the codechef
 driver.find_element_by_id("edit-submit-1").click()
+
+# closing the driver
+driver.close()
